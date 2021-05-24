@@ -15619,6 +15619,11 @@
   "RootNamespace": "RememberBruce",
   "Documents": [
     {
+      "FilePath": "/Users/austinblackwell/Documents/TheBruceProject/RememberBruce/test.cshtml",
+      "TargetPath": "test.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/austinblackwell/Documents/TheBruceProject/RememberBruce/Views/_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
