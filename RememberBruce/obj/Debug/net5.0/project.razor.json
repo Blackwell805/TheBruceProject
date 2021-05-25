@@ -15619,11 +15619,6 @@
   "RootNamespace": "RememberBruce",
   "Documents": [
     {
-      "FilePath": "/Users/austinblackwell/Documents/TheBruceProject/RememberBruce/TheBruceProject/RememberBruce/Views/Home/Privacy.cshtml",
-      "TargetPath": "TheBruceProject\\RememberBruce\\Views\\Home\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "/Users/austinblackwell/Documents/TheBruceProject/RememberBruce/test.cshtml",
       "TargetPath": "test.cshtml",
       "FileKind": "mvc"
@@ -15649,38 +15644,8 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/austinblackwell/Documents/TheBruceProject/RememberBruce/TheBruceProject/RememberBruce/Views/Home/Index.cshtml",
-      "TargetPath": "TheBruceProject\\RememberBruce\\Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/austinblackwell/Documents/TheBruceProject/RememberBruce/TheBruceProject/RememberBruce/Views/Shared/Error.cshtml",
-      "TargetPath": "TheBruceProject\\RememberBruce\\Views\\Shared\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/austinblackwell/Documents/TheBruceProject/RememberBruce/TheBruceProject/RememberBruce/Views/Shared/_ValidationScriptsPartial.cshtml",
-      "TargetPath": "TheBruceProject\\RememberBruce\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "/Users/austinblackwell/Documents/TheBruceProject/RememberBruce/Views/Home/Privacy.cshtml",
       "TargetPath": "Views\\Home\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/austinblackwell/Documents/TheBruceProject/RememberBruce/TheBruceProject/RememberBruce/Views/_ViewImports.cshtml",
-      "TargetPath": "TheBruceProject\\RememberBruce\\Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/austinblackwell/Documents/TheBruceProject/RememberBruce/TheBruceProject/RememberBruce/Views/Shared/_Layout.cshtml",
-      "TargetPath": "TheBruceProject\\RememberBruce\\Views\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/austinblackwell/Documents/TheBruceProject/RememberBruce/TheBruceProject/RememberBruce/Views/_ViewStart.cshtml",
-      "TargetPath": "TheBruceProject\\RememberBruce\\Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
     },
     {
