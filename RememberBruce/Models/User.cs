@@ -35,7 +35,19 @@ namespace RememberBruce.Models
         [Display(Name = "Confirm Password")]
         public string ConfirmPassword { get; set; }
 
-        public DateTime CreatedAt { get; set; }
-        public DateTime UpdatedAt { get; set; }
+        //////////CREATED AT DATE & TIME\\\\\\\\\\\\\\
+        public DateTime CreatedAt { get; set; } = DateTime.Now;
+        //////////////////////////////////
+
+        //////////UPDATED AT DATE & TIME\\\\\\\\\\\\\\
+        public DateTime UpdatedAt { get; set; } = DateTime.Now;
+        //////////////////////////////////
+
+        ////////////////METHODS\\\\\\\\\\\\\\\\\\
+        //COMBINE FIRST NAME AND LAST NAME OF USER
+        public string FullName()
+        {
+            return FirstName + " " + LastName;
+        }
     }
 }
