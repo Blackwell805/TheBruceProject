@@ -44,7 +44,7 @@ namespace RememberBruce.Controllers
                 User registeredUser = db.Users.SingleOrDefault(u => u.Email == user.Email);
                 HttpContext.Session.SetInt32("userId", registeredUser.UserId);
 
-                return RedirectToAction("Index", "Hobby");
+                return RedirectToAction("Index", "Bruce");
             }
             return View("Index");
         }
@@ -77,7 +77,7 @@ namespace RememberBruce.Controllers
                     return View("Index");
                 }
                 HttpContext.Session.SetInt32("userId", userInDb.UserId);
-                return RedirectToAction("Index", "Hobby");
+                return RedirectToAction("Index", "Bruce");
             }
             return View("Index");
         }
