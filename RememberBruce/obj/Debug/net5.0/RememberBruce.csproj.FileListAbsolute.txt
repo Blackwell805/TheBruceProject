@@ -46,3 +46,6 @@
 /Users/austinblackwell/Documents/TheBruceProject/RememberBruce/obj/Debug/net5.0/ref/RememberBruce.dll
 /Users/austinblackwell/Documents/TheBruceProject/RememberBruce/obj/Debug/net5.0/RememberBruce.pdb
 /Users/austinblackwell/Documents/TheBruceProject/RememberBruce/obj/Debug/net5.0/RememberBruce.genruntimeconfig.cache
+/Users/austinblackwell/Documents/TheBruceProject/RememberBruce/obj/Debug/net5.0/Razor/Views/Home/AboutBruce.cshtml.g.cs
+/Users/austinblackwell/Documents/TheBruceProject/RememberBruce/obj/Debug/net5.0/Razor/Views/Home/_Login.cshtml.g.cs
+/Users/austinblackwell/Documents/TheBruceProject/RememberBruce/obj/Debug/net5.0/Razor/Views/Home/_Registration.cshtml.g.cs
