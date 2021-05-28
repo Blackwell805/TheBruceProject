@@ -15619,8 +15619,18 @@
   "RootNamespace": "RememberBruce",
   "Documents": [
     {
+      "FilePath": "/Users/austinblackwell/Documents/TheBruceProject/RememberBruce/Views/Home/_Login.cshtml",
+      "TargetPath": "Views\\Home\\_Login.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/austinblackwell/Documents/TheBruceProject/RememberBruce/Views/_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/austinblackwell/Documents/TheBruceProject/RememberBruce/Views/Bruce/EditTruck.cshtml",
+      "TargetPath": "Views\\Bruce\\EditTruck.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15641,6 +15651,31 @@
     {
       "FilePath": "/Users/austinblackwell/Documents/TheBruceProject/RememberBruce/Views/Home/Privacy.cshtml",
       "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/austinblackwell/Documents/TheBruceProject/RememberBruce/Views/Bruce/AddTruck.cshtml",
+      "TargetPath": "Views\\Bruce\\AddTruck.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/austinblackwell/Documents/TheBruceProject/RememberBruce/Views/Bruce/Dashboard.cshtml",
+      "TargetPath": "Views\\Bruce\\Dashboard.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/austinblackwell/Documents/TheBruceProject/RememberBruce/Views/Home/_Registration.cshtml",
+      "TargetPath": "Views\\Home\\_Registration.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/austinblackwell/Documents/TheBruceProject/RememberBruce/Views/Bruce/AboutBruce.cshtml",
+      "TargetPath": "Views\\Bruce\\AboutBruce.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/austinblackwell/Documents/TheBruceProject/RememberBruce/Views/Bruce/_BruceSummary.cshtml",
+      "TargetPath": "Views\\Bruce\\_BruceSummary.cshtml",
       "FileKind": "mvc"
     },
     {
