@@ -22,7 +22,7 @@ namespace RememberBruce.Controllers
         [HttpGet("")]
         public IActionResult Index()
         {
-            return View();
+            return View("Index");
         }
 
         public IActionResult Register(User user)

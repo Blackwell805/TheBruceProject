@@ -22,24 +22,25 @@ namespace RememberBruce.Controllers
         {
             return View("AboutBruce");
         }
-    }
-    [HttpGet("add")]
-    public IActionResult NewTruck()
-    {
-        return View("AddTruck");
-    }
-    [HttpGet("")]
-    public IActionResult Detail()
-    {
-        return View("Detail");
-    }
+
+        [HttpGet("add")]
+        public IActionResult NewTruck()
+        {
+            return View("AddTruck");
+        }
+        [HttpGet("location")]
+        public IActionResult Detail()
+        {
+            return View("Detail");
+        }
 
 
 
-    [HttpGet("edit")]
-    public IActionResult Edit()
-    {
-        return View("EditTruck");
-    }
+        [HttpGet("edit")]
+        public IActionResult Edit()
+        {
+            return View("EditTruck");
+        }
 
+    }
 }
