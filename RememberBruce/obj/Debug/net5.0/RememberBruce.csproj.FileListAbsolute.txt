@@ -54,3 +54,4 @@
 /Users/austinblackwell/Documents/TheBruceProject/RememberBruce/obj/Debug/net5.0/Razor/Views/Bruce/EditTruck.cshtml.g.cs
 /Users/austinblackwell/Documents/TheBruceProject/RememberBruce/obj/Debug/net5.0/Razor/Views/Bruce/_BruceSummary.cshtml.g.cs
 /Users/austinblackwell/Documents/TheBruceProject/RememberBruce/obj/Debug/net5.0/Razor/Views/Bruce/Detail.cshtml.g.cs
+/Users/austinblackwell/Documents/TheBruceProject/RememberBruce/obj/Debug/net5.0/Razor/Views/Bruce/_BruceImages.cshtml.g.cs

@@ -15692,6 +15692,11 @@
       "FilePath": "/Users/austinblackwell/Documents/TheBruceProject/RememberBruce/Views/Home/Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/austinblackwell/Documents/TheBruceProject/RememberBruce/Views/Bruce/_BruceImages.cshtml",
+      "TargetPath": "Views\\Bruce\\_BruceImages.cshtml",
+      "FileKind": "mvc"
     }
   ],
   "SerializationFormat": "0.2"

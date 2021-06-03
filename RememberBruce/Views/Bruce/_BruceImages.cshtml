@@ -1,0 +1,103 @@
+<div class="slideshow-container">
+
+    <div class="mySlides fade">
+        <div class="numbertext">1 / 9</div>
+        <img src="/img/AandB.jpeg" style="width:75%">
+        <div class="text">Bruce with Big Sister</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">2 / 9</div>
+        <img src="/img/Brothers1.jpeg" style="width:75%">
+        <div class="text">Blackwell Boys</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">3 / 9</div>
+        <img src="/img/Brothers2.jpeg" style="width:75%">
+        <div class="text">Brothers Forever</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">4 / 9</div>
+        <img src="/img/Cornfield.jpeg" style="width:75%">
+        <div class="text">Halloween</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">5 / 9</div>
+        <img src="/img/DadandB.jpeg" style="width:75%">
+        <div class="text">Daddies Litte Mushy</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">6 / 9</div>
+        <img src="/img/DadandB2.jpeg" style="width:75%">
+        <div class="text">Halloween Pumpkins</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">7 / 9</div>
+        <img src="/img/MomandB.jpeg" style="width:75%">
+        <div class="text">Mommies Forever Baby</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">8 / 9</div>
+        <img src="/img/MomandB2.jpeg" style="width:75%">
+        <div class="text">Best Cuddler Ever</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">9 / 9</div>
+        <img src="/img/Tootsie.jpeg" style="width:75%">
+        <div class="text">The Candy Monster</div>
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot" onclick="currentSlide(5)"></span>
+    <span class="dot" onclick="currentSlide(6)"></span>
+    <span class="dot" onclick="currentSlide(7)"></span>
+    <span class="dot" onclick="currentSlide(8)"></span>
+    <span class="dot" onclick="currentSlide(9)"></span>
+</div>
+
+@* /**************************************javascript**************************/ *@
+
+<script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+        showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+        showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) { slideIndex = 1 }
+        if (n < 1) { slideIndex = slides.length }
+        for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";                     }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+    }
+</script>
