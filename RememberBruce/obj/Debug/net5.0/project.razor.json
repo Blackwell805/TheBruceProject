@@ -15679,6 +15679,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/Users/austinblackwell/Documents/TheBruceProject/RememberBruce/Views/Bruce/Detail.cshtml",
+      "TargetPath": "Views\\Bruce\\Detail.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/austinblackwell/Documents/TheBruceProject/RememberBruce/Views/_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
@@ -15686,6 +15691,11 @@
     {
       "FilePath": "/Users/austinblackwell/Documents/TheBruceProject/RememberBruce/Views/Home/Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/austinblackwell/Documents/TheBruceProject/RememberBruce/Views/Bruce/_BruceImages.cshtml",
+      "TargetPath": "Views\\Bruce\\_BruceImages.cshtml",
       "FileKind": "mvc"
     }
   ],
